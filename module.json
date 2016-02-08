@@ -1,0 +1,25 @@
+{
+  "name": "cmsis-core-atmel-samcortexm4-samg55",
+  "version": "0.1.0",
+  "description": "CMSIS Core Implementation for Atmel SAMG55 Microcontrollers",
+  "keywords": [
+    "cmsis"
+  ],
+  "license": "Apache-2",
+  "extraIncludes": [
+    "source",
+    "source/TARGET_SAMG55J19/TOOLCHAIN_GCC_ARM",
+    "source/cmsis/TARGET_SAMG55/source",
+    "source/cmsis/TARGET_SAMG55/include",
+    "source/cmsis/TARGET_SAMG55/include/component",
+    "source/cmsis/TARGET_SAMG55/include/instance",
+    "source/cmsis/TARGET_SAMG55/include/pio",
+    "source/header_files",
+    "source/preprocessor"
+  ],
+  "dependencies": {
+    "cmsis-core": "*",
+    "cmsis-core-atmel-samcortexm4": "*"
+  },
+  "targetDependencies": {}
+}
